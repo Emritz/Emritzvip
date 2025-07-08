@@ -4,7 +4,7 @@ import requests
 import subprocess
 import urllib.parse
 
-__ENDPOINT_URL__: str = "https://emritzvipapi.squareweb.app/api"
+BASE_URL: str = "https://admincpm.io/chanxreyno2/api"
 
 class Emritz:
     def __init__(self, access_key) -> None:
